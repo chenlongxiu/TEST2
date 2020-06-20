@@ -1,0 +1,116 @@
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin: 0px;
+}
+.top{
+    background-color: #3b3e5a;
+    margin:10px 10px 0px 10px;
+    height: 108px;
+}
+h1{
+    color: rgba(3, 3, 29, 0.986);
+    font-size: larger;
+}
+div#container1{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(2, 9, 10, 0.726);
+    border-color: darkgray;
+    border-width: 2px;
+    border-style: solid;
+    background-color: darkkhaki;
+    margin: 0px;
+    margin-right: 0px;
+    background:rgba(255, 255, 255, 0.11);
+    background-image: url(theimg/background.gif) no-repeat;
+}
+.cellcolor1{
+    color: rgb(121, 76, 9);
+}
+nav{
+    background-color: peru;
+    margin: 10px 10px 0px 10px;
+}
+nav ul{
+    height: 40px;
+    width: 100%;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    margin: 10px;
+}
+#footer{     
+    position: absolute; /* 关键 */     
+    float: right;    
+    height: 60px;         /* footer的高度一定要是固定值*/     
+ } 
+ div#container2{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(83, 36, 4, 0.918);
+    border-color: darkgray;
+    border-width: 2px;
+    border-style: dashed;
+    margin: 0px 5% 2% 5%;
+    margin-right: 5%;
+    background-image: url(theimg/background2.gif);
+ }
+ div#container3{
+    font-size: small;
+ }
+ div#container4{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(83, 36, 4, 0.918);
+    border-color: darkgray;
+    border-width: 2px;
+    border-style: dashed;
+    margin: 0px 5% 2% 5%;
+    margin-right: 5%;
+    display: table;
+	border-spacing: 10px;
+    background-image: url(theimg/background2.gif);
+ }
+ #tableRow {
+	display: table-row;
+}
+#container4_left{
+    display: table-cell;
+    width: 50%;
+    padding: 15px;
+    vertical-align: top;
+ }
+ #container4_right{
+    display: table-cell;
+    width: 50%;
+    padding: 15px;
+    vertical-align: top;
+ }
+ div#container5{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(49, 5, 78, 0.979);
+    border-color: darkgray;
+    border-width: 2px;
+    border-style: dashed;
+    margin: 0px 5% 2% 5%;
+    margin-right: 5%;
+    display: table;
+	border-spacing: 10px;
+    background-image: url(theimg/background2.gif);
+ }
+ #liuzhou_left{
+    display: table-cell;
+    width: 70%;
+    padding: 15px;
+    vertical-align: top;
+ }
+ #liuzhou_right{
+    display: table-cell;
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+ }
